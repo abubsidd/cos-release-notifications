@@ -3,5 +3,5 @@ curl -H "Content-type: application/json" -X POST -d '{
     "username": "New Release",
     "icon_emoji": ":robot_face:",
     "channel": "#abztest",
-    "text": "Release Team: X\nRelease Name: X\nRelease Version: X\nDescription: X\nPlatform: X\n DateTime: 14-06-2017 10:51:00"
+    "text": "<!channel> Release Team: X\nRelease Name: X\nRelease Version: X\nDescription: X\nPlatform: X\n DateTime: 14-06-2017 10:51:00"
   }' https://hooks.slack.com/services/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
