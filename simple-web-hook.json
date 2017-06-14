@@ -1,7 +1,9 @@
 //Simple Incoming Webhook
+//In order to tell the server which type of content we want returned, we must set the Content-Type header using the -H flag.
+//To change the request method, we can use the -X flag.
 curl -H "Content-type: application/json" -X POST -d '{
     "username": "New Release",
     "icon_emoji": ":robot_face:",
     "channel": "#abztest",
-    "text": "<!channel> Release Team: X\nRelease Name: X\nRelease Version: X\nDescription: X\nPlatform: X\n DateTime: 14-06-2017 10:51:00"
+    "text": "<!channel> *Release Team:* X\n*Release Name:* X\n*Release Version:*  X\n*Description:* X\n*Platform:* X\n *Live:* 10:00"
   }' https://hooks.slack.com/services/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
