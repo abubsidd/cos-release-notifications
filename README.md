@@ -7,4 +7,4 @@ Release Name:
 Release Version:
 Description:
 Platform:
-DateTime: --/--/---- --:--
+Live: --:--
